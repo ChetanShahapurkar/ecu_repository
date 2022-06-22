@@ -1,0 +1,23 @@
+menu "LED Configuration Menu"
+
+    config EXAMPLE_USE_LED
+        bool "Use LED in this system"
+        default n
+
+    config EXAMPLE_USE_WS2812
+        bool "LED WS2812"
+        default n
+        depends on EXAMPLE_USE_LED
+        
+    config EXAMPLE_NUMBER_OF_WS2812_LED
+        int "Number of LEDs Connected"
+        default 0
+        range 0 31
+        depends on EXAMPLE_USE_WS2812
+
+    config EXAMPLE_WS2812_DATA_PIN
+        int "DATA PIN"
+        default 0
+        range 0 31
+        depends on EXAMPLE_USE_WS2812
+endmenu

@@ -1,0 +1,1 @@
+1. APN should be supplied by JSON message / stored in SD card

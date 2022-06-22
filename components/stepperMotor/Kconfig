@@ -1,0 +1,23 @@
+menu "Stepper Motor Configuration"
+    config EXAMPLE_STEPPER_MOTOR_DIR_PIN
+        int "Motor DIR Pin Number"
+        default 0
+        range 0 31
+        help
+            Pin number of Stepper Motor Dir Pin.
+
+    config EXAMPLE_STEPPER_MOTOR_STEP_PIN
+        int "Motor STEP Pin Number"
+        default 0
+        range 0 31
+        help
+            Pin number of Stepper Motor Step Pin.
+
+    config EXAMPLE_STEPPER_MOTOR_ENABLE_PIN
+        int "Motor ENABLE Pin Number"
+        default 0
+        range 0 31
+        help
+            Pin number of Stepper Motor Enable Pin.
+    
+endmenu

@@ -1,0 +1,13 @@
+<FirmwareVersion>V1.0</FirmwareVersion>
+<mqtt.host>mqtt://abhed.nexlein.com</mqtt.host>
+<mqtt.port>1883</mqtt.port>
+<mqtt.vhost>boot</mqtt.vhost>
+<mqtt.username>apachet20dun</mqtt.username>
+<mqtt.password>c3Flx12Q</mqtt.password>
+<mqtt.routingKey>apachet20dt</mqtt.routingKey>
+<abhed.bleVisibleName>ABHED-001</abhed.bleVisibleName>
+<abhed.telemetryFrequency>60</abhed.telemetryFrequency>
+<abhed.diagnosticFrequency>120</abhed.diagnosticFrequency>
+<abhed.trustedSources>VIOLAB</abhed.trustedSources>
+<motorRotationClockwiseSteps>4000</motorRotationClockwiseSteps>
+<motorRotationAntiClockwiseSteps>4000</motorRotationAntiClockwiseSteps>
